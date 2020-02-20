@@ -1,0 +1,43 @@
+/*
+  css的语法：
+  选择器：
+        通过选择器可以选中页面中指定的元素
+  声明块：
+        声明块紧跟在选择器的后边，使用一对{}括起来
+*/
+p{color: darkorchid; font-size: 140px}
+
+/*id选择器，通过元素的id属性选中唯一的元素*/
+#p2{color: darkorchid; font-size: 140px}
+
+/*类选择器，通过元素的class属性选择一组元素*/
+.p2{color: darkorchid; font-size: 140px}
+
+/*选择器分组*/
+#p2,.p2{color: darkorchid; font-size: 140px}
+
+/*通配选择器，选择页面的所有元素*/
+*{color: red}
+
+/*为拥有class p3 span元素设置一个背景颜色
+  为交集设置属性
+  */
+span.p3{}
+
+/*后代元素选择器
+  选中指定元素的后代元素
+  */
+span p3{}
+
+/*子元素选择器
+  选中指定元素的子元素
+  需要考虑浏览器的兼容性
+  */
+span > p3{}
+
+
+
+
+
+
+
