@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box1{
+            width: 200px;
+            height: 200px;
+            background-color: #898aff;
+            border: 10px solid red;
+
+            /*
+             外边距是指当前盒子和其他盒子之间的距离
+             盒子有四个方向的外边距
+             margin-top
+             margin-right
+             margin-left
+             margin-bottom
+
+             由于页面中的元素都是靠左靠上摆放的，所以设置上和左会改变自身盒子的位置，设置右和下会改变其他盒子的位置
+
+             外边距若为负值，则往反方向移动
+
+             左边距或者右边距设置auto，则自动设置为最大值
+             */
+
+            margin-top: 100px;
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+    </style>
+</head>
+<body>
+<div class="box1">
+    <p>
+        我是盒子
+    </p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        P{
+            background-color: darkorchid;
+        }
+
+        /*选择p元素的第一个子元素*/
+        p:first-child{
+            background-color: #ff2c28;
+        }
+
+        /*选择body的第一子元素*/
+        body > p :first-child{}
+
+        /*选择某类元素的第一个*/
+        p:first-of-type{}
+        p:last-of-type{}
+
+    </style>
+</head>
+<body>
+<p>
+    我是一个p标签
+</p>
+</body>
+</html>

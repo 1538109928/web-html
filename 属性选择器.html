@@ -2,9 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>属性选择器</title>
+
+    <style>
+        /*选择p中有class属性的*/
+        p[class]{
+            color: darkorchid;
+        }
+
+        /*选择p中title=诗句*/
+        p[title="诗句"]{
+            color: darkblue;
+        }
+
+        /*还可以指定一些元素的的各种属性*/
+
+    </style>
+
 </head>
 <body>
+<p class="p2">
+    白日依山尽
+</p>
+<p title="诗句">
+    白日依山尽
+</p>
+<p class="p2">
+    白日依山尽
+</p><p class="p2">
+    白日依山尽
+</p>
+
 
 </body>
 </html>
